@@ -1,0 +1,39 @@
+/* Tags */
+
+.popular-and-tags {
+    display: flex;
+    flex-flow: $fila $rollo;
+    width: 100%;
+    justify-content: $separado;
+}
+
+.tags {
+    display: $flexible;
+    width: 500px;
+    flex-flow: $fila $rollo;
+}
+
+.tags__title  {
+    width: 100%;
+}
+
+.tag {
+    display: $flexible;
+    justify-content: $separado;
+    width: 100%;
+    align-items: $centrado;
+    height: 90px;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.tag__image {
+    width: 80px;
+    height: 70px;
+}
+.tag__title {
+    color: $color-titulo-tag;
+    font-weight: $negrita;
+    font-size: 32px;
+}
+

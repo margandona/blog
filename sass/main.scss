@@ -2,13 +2,19 @@
 @import 'abstracts/mixins';     // Importa todos los mixins sin necesidad de un espacio de nombres
 
 
-@import 'base/base';
-@import 'base/typography';
+@import 'base/blog-base';
+@import 'base/blog-typography';
+@import 'base/blog-modificadores';
 
 
-@import 'layout/header';
-@import 'layout/main';
-@import 'layout/footer';
+@import 'layout/blog-header';
+@import 'layout/blog-main';
+@import 'layout/blog-footer';
+@import 'layout/blog-principal';
+@import 'layout/blog-small';
+@import 'layout/blog-infoPost';
+@import 'layout/blog-popular';
+@import 'layout/blog-tag';
 
 
 @import 'components/buttons';

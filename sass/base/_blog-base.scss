@@ -1,0 +1,11 @@
+/* Base styles here */ 
+* {
+    margin: $cero;
+    padding: $cero;
+    box-sizing: border-box;
+    color: $color-letra;
+}
+.container {
+    max-width: 1280px;
+    margin: $cero $automatico;
+}

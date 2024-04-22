@@ -1,0 +1,19 @@
+/* Small posts */
+
+.small-posts {
+    width: 500px;
+    display: $flexible;
+    flex-direction: $columna;
+    row-gap: 20px;
+}
+
+.small-post {
+    display: $flexible
+}
+
+.small-post__image {
+    width: 180px;
+    height: 135px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
