@@ -6,6 +6,8 @@
     color: $color-letra;
 }
 .container {
-    max-width: 1280px;
-    margin: $cero $automatico;
-}
+    display: $flexible;
+    flex-direction: $columna;
+    align-items: $centrado;
+  }
+  

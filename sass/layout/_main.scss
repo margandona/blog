@@ -1,0 +1,34 @@
+.main-login {
+    width: 100%;
+    
+    margin: 20px auto; /* Centra verticalmente y establece márgenes automáticos horizontalmente */
+    padding: 20px;
+    background: $color-white;
+    box-shadow: $sombra-main;
+    display: $bloque;
+    align-items: $centrado;
+    justify-content: $centrado;
+    margin-bottom: 20px;
+}
+
+.cont-suscripcion {
+    background-color: $color-button-hover;
+    border-radius: 15px;
+    height: 200px;
+    padding: 20px;
+
+    
+}
+
+
+.main {
+    display: $flexible;
+    flex-flow: row wrap;
+    justify-content: $separado;
+
+}
+
+.main__title {
+    margin-bottom: 20px;
+    width: 100%;
+}

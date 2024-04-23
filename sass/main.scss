@@ -1,20 +1,25 @@
-@import 'abstracts/variables';  // Importa todas las variables sin necesidad de un espacio de nombres
+@import 'abstracts/variables';
+
 @import 'abstracts/mixins';     // Importa todos los mixins sin necesidad de un espacio de nombres
 
 
-@import 'base/blog-base';
-@import 'base/blog-typography';
-@import 'base/blog-modificadores';
+@import 'base/base';
+@import 'base/typography';
+@import 'base/modificadores';
+
+@import 'components/buttons';
+@import 'components/input-groups';
+@import 'components/links';
 
 
-@import 'layout/blog-header';
-@import 'layout/blog-main';
-@import 'layout/blog-footer';
-@import 'layout/blog-principal';
-@import 'layout/blog-small';
-@import 'layout/blog-infoPost';
-@import 'layout/blog-popular';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/principal';
+@import 'layout/small';
+@import 'layout/infoPost';
+@import 'layout/popular';
 @import 'layout/blog-tag';
+@import 'layout/main';
 
 
 @import 'components/buttons';

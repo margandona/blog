@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Style -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- Poppins - Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Blog FrontEnd</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo">
+          <img
+            src="assets/img/logos/adl.png"
+            class="logo__img"
+            alt="Logo Blog FrontEnd"
+          />
+          <span class="logo__text">Blog FrontEnd</span>
+        </div>
+      </header>
+      <main class="main-login">
+        
+        <form action="/login.html" method="POST">
+          <h2>Registro</h2>
+            <div class="input-group">
+                <label for="name"></label>
+                <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required>
+            </div>
+            <div class="input-group">
+                <label for="last-name"></label>
+                <input type="text" id="last-name name="last-name" placeholder="Ingresa tu apellido" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="correo"></label>
+                <input type="email" id="correo" name="correo" placeholder="Email">
+            </div>
+            <div class="input-group">
+                <label for="password"></label>
+                <input type="password" id="password" name="password" placeholder="Contraseña">
+            </div>
+            <div class="input-group">
+                <label for="password"></label>
+                <input type="password" id="password" name="password" placeholder="Confirma tu contraseña">
+            </div>
+            
+            <button type="submit" class="btn">Registrar</button>
+            <button type="button" class="btn btn-google">
+                <img src="assets/img/logo-G.svg" alt="Google Logo" class="google-logo">
+                Iniciar sesión con Google
+            </button>
+            <div class="register">
+              <p>Ya tengo una cuenta y deseas <a href="/login.html" class="register-link">Ingresar</a></p>
+          </div>
+        </form>
+        
+    </main>
+      <hr class="separator">
+      <footer class="footer">
+        <div class="logo">
+          <img
+            src="assets/img/logos/adl.png"
+            class="logo__img"
+            alt="Logo Blog FrontEnd"
+          />
+          <span class="logo__text">Blog FrontEnd</span>
+        </div>
+        <span class="footer__text">Desafío Latam - 2023</span>
+      </footer>
+    </div>
+  </body>
+</html>
